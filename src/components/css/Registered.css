@@ -1,0 +1,41 @@
+.editRegistered > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* border: black solid 1; */
+}
+
+.editRegistered {
+  margin: 0 auto;
+}
+.editRegistered .editText {
+  padding-left: 10px;
+  background: lightgray;
+  align-items: flex-start;
+  border-radius: 5px;
+  /* justify-content: space-around; */
+}
+.editRegistered .editText > span {
+  /* display: inline-block; */
+  margin: 10px;
+  /* justify-content: left; */
+  /* align-items: flex-start; */
+}
+.editRegistered .editButton {
+  margin-top: 30px;
+  /* border: black solid 1px; */
+  /* background: royalblue; */
+}
+.editRegistered .editButton button {
+  margin: 10px 0;
+  height: 45px;
+  width: 200px;
+  border-radius: 5px;
+  background: royalblue;
+  padding: none;
+  font-weight: bold;
+  color: white;
+  border-style: none;
+  border-color: none;
+}

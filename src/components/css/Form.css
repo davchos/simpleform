@@ -1,0 +1,36 @@
+.form input[type="text"],
+.form input[type="password"] {
+  border-style: solid;
+  border-radius: 5px;
+  margin: 5px 0 20px 0;
+  height: 40px;
+  background: linen;
+}
+
+.form input[type="submit"] {
+  margin: 10px 0;
+  height: 45px;
+  border-radius: 5px;
+  background: royalblue;
+  padding: none;
+  font-weight: bold;
+  color: white;
+  border-style: none;
+  border-color: none;
+}
+.form label {
+  font-size: 15px;
+  /* margin-bottom: 5px; */
+}
+#textarea {
+  border-style: none;
+  border-color: none;
+  cursor: none;
+  resize: none;
+  text-align: center;
+  color: red;
+}
+
+.borderRed {
+  border-color: red;
+}
